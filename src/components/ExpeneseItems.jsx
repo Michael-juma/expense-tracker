@@ -1,10 +1,9 @@
 import ExpenseForm from "./ExpenseForm"
 export default function ExpeneseItems(){
     return(
-        <table className="table table-striped p-5 table-bordered ">
-
-            <div>
-            <thead className="table table-striped p-5 table-bordered ">
+        <div className="container">
+        <table className="table table-striped p-5 table-bordered table-hover mt-4  ">
+            <thead className="table-dark">
                 <tr >
                     
                     <td>Expense</td>
@@ -15,7 +14,8 @@ export default function ExpeneseItems(){
                 </tr>
             </thead>
             <ExpenseForm/>
-            </div>
+            
         </table>
+        </div>
     )
 }
