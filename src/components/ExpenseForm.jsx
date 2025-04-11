@@ -1,13 +1,13 @@
 export default function ExpenseForm() {
 
     return (
-        <table className="table table-striped p-5 table-bordered card">
-        <div className="card">
+        
+        <div className="card mt-4 p-5 bg-light text-dark col-md-6">
             <h1 className="strong">Add Expense</h1>
             <small>Enter your expenses</small>
-            <div>
-                <form>
-                    <div className="mb-3">
+            <div className=" col-md-6">
+                <form className="row g-3  col-md-6">
+                    <div>
                         <label htmlFor="expense" className="form-label">Expense</label>
                         <input type="text" className="form-control" id="expense" placeholder="Enter Expense" />
                     </div>
@@ -29,7 +29,7 @@ export default function ExpenseForm() {
 
 
         </div>
-        </table>
+        
 
     )
 }
