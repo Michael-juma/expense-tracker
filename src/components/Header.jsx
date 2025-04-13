@@ -9,7 +9,7 @@ export default function Header() {
             Start taking control of you finance and life.
                 Record categories and analyze your spending
             </small>
-            <Button/>
+            <Button text="search"/>
         </div>
     )
 }
