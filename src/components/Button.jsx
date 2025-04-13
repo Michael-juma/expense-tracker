@@ -1,10 +1,8 @@
-export default function Button({ type, text, onClick }) {
+export default function Button({ text }) {
     return (
-        <button className="btn btn-primary"
-        text align="center" 
-        type={type} 
-        onClick={onClick}>
-            search Expense
+        <button className="btn btn-primary">
+            {text}
+            search expenses
         </button>
     )
 }
