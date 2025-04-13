@@ -1,6 +1,6 @@
 export default function Button({ text }) {
     return (
-        <div>
+        <div className="container mt-4">
         <input  placeholder="search expenses"/>
         <button className="btn btn-primary" >
             {text}
