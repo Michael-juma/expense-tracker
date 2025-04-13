@@ -1,8 +1,11 @@
 export default function Button({ text }) {
     return (
-        <button className="btn btn-primary">
+        <div>
+        <input  placeholder="search expenses"/>
+        <button className="btn btn-primary" >
             {text}
-            search expenses
+            click me
         </button>
+        </div>
     )
 }

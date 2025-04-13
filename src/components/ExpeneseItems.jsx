@@ -1,3 +1,4 @@
+
 export default function ExpeneseItems({ expenses, setExpenses }) {
     const handleDelete = (id) => {
       const updated = expenses.filter((exp) => exp.id !== id);
@@ -26,8 +27,6 @@ export default function ExpeneseItems({ expenses, setExpenses }) {
                 <td>{expense.amount}</td>
                 <td>{expense.date}</td>
                 <td>
-                    
-                    <input  placeholder="search expenses"/>
                     <button className="btn btn-danger"onClick={() => handleDelete(expense.id)}>
                     Delete
                   </button> 

@@ -57,7 +57,7 @@ export default function ExpenseForm({ setExpenses }) {
             />
           </div>
         ))}
-        <button type="submit" className="btn btn-info btn-sm active">Submit</button>
+        <button type="submit" className="btn btn-info btn-sm d-grid mt-4">Submit</button>
       </form>
     </div>
   );
