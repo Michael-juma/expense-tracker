@@ -5,7 +5,7 @@ export default function ExpenseForm({ setExpenses }) {
     expense: '',
     description: '',
     category: '',
-    amount: '',
+    amount: 1,
     date: ''
   });
 

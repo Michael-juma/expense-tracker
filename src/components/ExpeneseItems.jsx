@@ -7,7 +7,7 @@ export default function ExpeneseItems({ expenses, setExpenses }) {
   
     return (
       <div className="container table-responsive col-md-6">
-        <table className="table table-striped p-5 table-bordered table-hover mt-4">
+        <table className="table table-striped p-5 table-bordered table-hover mt-3">
           <thead className="table-dark">
             <tr>
               <td>Expense</td>
